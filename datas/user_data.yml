@@ -1,0 +1,25 @@
+addUserData:
+  -
+    username: ''
+    phone: '15803469205'
+    status: 0
+    msg: '请输入姓名'
+    desc: '校验姓名不能为空'
+  -
+    username: 'test'
+    phone: ''
+    status: 0
+    msg: '请输入手机号'
+    desc: '校验手机号不能为空'
+  -
+    username: 'test'
+    phone: '1580346920503'
+    status: 0
+    msg: '手机号输入不合法'
+    desc: '校验手机号不合法'
+  -
+    username: 'test15'
+    phone: '12403699871'
+    status: 1
+    msg: '添加成功，已发送短信通知该用户'
+    desc: '添加成功'
